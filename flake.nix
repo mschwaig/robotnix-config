@@ -1,7 +1,7 @@
 {
   description = "A basic example robotnix configuration";
 
-  inputs.robotnix.url = "github:danielfullmer/robotnix/vanilla-2022022022";
+  inputs.robotnix.url = "github:danielfullmer/robotnix/2bcd6a106fd73e5f6454a4e3afc2d29cb78a2793";
 
   outputs = { self, robotnix }: {
     # "dailydriver" is an arbitrary user-chosen name for this particular
@@ -16,8 +16,8 @@
       # If you make new changes to your build that you want to be pushed by the OTA updater, you should set this yourself.
       # buildDateTime = 1584398664; # Use `date "+%s"` to get the current time
 
-      # signing.enable = true;
-      # signing.keyStorePath = "/var/secrets/android-keys"; # A _string_ of the path for the key store.
+      signing.enable = true;
+      signing.keyStorePath = "/var/secrets/robotnix"; # A _string_ of the path for the key store.
 
       # Build with ccache
       # ccache.enable = true;
