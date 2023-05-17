@@ -1,7 +1,7 @@
 {
   description = "A basic example robotnix configuration";
 
-  inputs.robotnix.url = "github:mschwaig/robotnix/testverify";
+  inputs.robotnix.url = "github:mschwaig/robotnix/verify";
 
   outputs = { self, robotnix }: {
     # "dailydriver" is an arbitrary user-chosen name for this particular
