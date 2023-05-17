@@ -9,7 +9,7 @@
     # the device name if you only have one of this kind of device.
     robotnixConfigurations."dailydriver" = robotnix.lib.robotnixSystem ({ config, pkgs, ... }: {
       # These two are required options
-      device = "crosshatch";
+      device = "oriole";
       flavor = "vanilla"; # "grapheneos" is another option
 
       # buildDateTime is set by default by the flavor, and is updated when those flavors have new releases.
