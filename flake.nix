@@ -11,7 +11,7 @@
       # These two are required options
       device = "oriole";
       flavor = "vanilla"; # "grapheneos" is another option
-
+      apps.chromium.enable = false;
       # buildDateTime is set by default by the flavor, and is updated when those flavors have new releases.
       # If you make new changes to your build that you want to be pushed by the OTA updater, you should set this yourself.
       # buildDateTime = 1584398664; # Use `date "+%s"` to get the current time
