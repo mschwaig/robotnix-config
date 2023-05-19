@@ -106,11 +106,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1684422613,
-        "narHash": "sha256-q8i3Up/0mm5jlFo8X0nrmSBlNpkigleTOAOvyv31SBs=",
+        "lastModified": 1684494950,
+        "narHash": "sha256-wXPDok8k7Xk4E/RVhGNlHHxcjX5mFqjwqGvM3q7ekIE=",
         "owner": "mschwaig",
         "repo": "robotnix",
-        "rev": "a93a4e60aeb2237dacfcda02e12fa93fd7a941b5",
+        "rev": "d33a7ceb955a95f82a86627838f95dfd11668328",
         "type": "github"
       },
       "original": {
