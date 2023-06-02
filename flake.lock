@@ -106,16 +106,16 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1685520221,
-        "narHash": "sha256-MoBXuD6eju35Qt1jDE23kDu1qCCzR4NBfxHvIN7iZp0=",
+        "lastModified": 1685741799,
+        "narHash": "sha256-8AaPZvOB6pKYlftFO1Xy9fHUNN2/mJAe1fERbrK6pTo=",
         "owner": "mschwaig",
         "repo": "robotnix",
-        "rev": "df387cb3229b8ac8ea1fc38f23b940c5eaaebb06",
+        "rev": "d9d22791ef9e3742b87548851baedc3eca511c7d",
         "type": "github"
       },
       "original": {
         "owner": "mschwaig",
-        "ref": "verify",
+        "ref": "fix-fod-that-went-bad",
         "repo": "robotnix",
         "type": "github"
       }

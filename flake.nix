@@ -1,7 +1,7 @@
 {
   description = "A basic example robotnix configuration";
 
-  inputs.robotnix.url = "github:mschwaig/robotnix/verify";
+  inputs.robotnix.url = "github:mschwaig/robotnix/fix-fod-that-went-bad";
 
   outputs = { self, robotnix }: {
     # "dailydriver" is an arbitrary user-chosen name for this particular
@@ -16,8 +16,8 @@
       # If you make new changes to your build that you want to be pushed by the OTA updater, you should set this yourself.
       # buildDateTime = 1584398664; # Use `date "+%s"` to get the current time
 
-      signing.enable = true;
-      signing.keyStorePath = "/var/secrets/robotnix"; # A _string_ of the path for the key store.
+      # signing.enable = true;
+      # signing.keyStorePath = "/var/secrets/robotnix"; # A _string_ of the path for the key store.
 
       # Build with ccache
       # ccache.enable = true;
